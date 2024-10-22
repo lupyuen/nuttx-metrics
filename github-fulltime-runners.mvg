@@ -34,21 +34,28 @@ push graphic-context
       font-size 50
       fill 'white'
       stroke-width 1
-      text 110,480 'GitHub Runner Hours: %%total_runner_hours%%'
+      text 110,480 'GitHub Job Hours: %%total_job_hours%%'
     pop graphic-context
 
     push graphic-context
       font-size 50
       fill 'white'
       stroke-width 1
-      text 110,560 'Full-Time GitHub Runners: %%fulltime_runners%%'
+      text 110,560 'GitHub Runner Hours: %%total_runner_hours%%'
     pop graphic-context
 
     push graphic-context
       font-size 50
       fill 'white'
       stroke-width 1
-      text 110,640 '(Let\'s keep this below 25!)'
+      text 110,640 'Full-Time GitHub Runners: %%fulltime_runners%%'
+    pop graphic-context
+
+    push graphic-context
+      font-size 50
+      fill 'white'
+      stroke-width 1
+      text 110,720 '(Let\'s keep this below 25!)'
     pop graphic-context
 
     push graphic-context

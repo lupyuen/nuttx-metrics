@@ -22,6 +22,9 @@ function update_metrics {
   local hours=$(
     grep "^hours=" $log_file \
     | grep --only-matching -E '[0-9]+' )
+  local total_job_hours=$(
+    grep "^total_job_hours=" $log_file \
+    | grep --only-matching -E '[.0-9]+' )
   local total_runner_hours=$(
     grep "^total_runner_hours=" $log_file \
     | grep --only-matching -E '[0-9]+' )
@@ -31,6 +34,7 @@ function update_metrics {
   echo time=$time
   echo date=$date
   echo hours=$hours
+  echo total_job_hours=$total_job_hours
   echo total_runner_hours=$total_runner_hours
   echo fulltime_runners=$fulltime_runners
 
@@ -40,6 +44,7 @@ function update_metrics {
     | sed "s/%%time%%/$time/g" \
     | sed "s/%%date%%/$date/g" \
     | sed "s/%%hours%%/$hours/g" \
+    | sed "s/%%total_job_hours%%/$total_job_hours/g" \
     | sed "s/%%total_runner_hours%%/$total_runner_hours/g" \
     | sed "s/%%fulltime_runners%%/$fulltime_runners/g" \
     >$tmp_file
