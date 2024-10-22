@@ -1,5 +1,5 @@
 push graphic-context
-  viewbox 0 0 624 369
+  viewbox 0 0 380 240
   affine 0.283636 0 0 0.283846 -0 -0
   push graphic-context
     push graphic-context
@@ -13,80 +13,46 @@ push graphic-context
       font-size 40
       fill 'white'
       stroke-width 1
-      text 1400,140 'Last Updated: Tue Oct 22 01:36:23 UTC 2024'
-    pop graphic-context
-
-    push graphic-context
-      fill 'red'
-      stroke 'black'
-      stroke-width 4
-      rectangle 1330,100 1370,140
+      text 110,240 'Last Updated: %%time%%'
     pop graphic-context
 
     push graphic-context
       font-size 40
       fill 'white'
       stroke-width 1
-      text 1400,220 'Date: 2024-10-22'
-    pop graphic-context
-
-    push graphic-context
-      fill 'yellow'
-      stroke 'black'
-      stroke-width 4
-      rectangle 1330,180 1370,220
+      text 110,320 'Date: %%date%%'
     pop graphic-context
 
     push graphic-context
       font-size 40
       fill 'white'
       stroke-width 1
-      text 1400,300 'Hours: 2'
-    pop graphic-context
-
-    push graphic-context
-      fill 'fuchsia'
-      stroke 'black'
-      stroke-width 4
-      rectangle 1330,260 1370,300
+      text 110,400 'Hours: %%hours%%'
     pop graphic-context
 
     push graphic-context
       font-size 40
       fill 'white'
       stroke-width 1
-      text 1400,380 'GitHub Runner Hours: 123'
-    pop graphic-context
-
-    push graphic-context
-      fill 'blue'
-      stroke 'black'
-      stroke-width 4
-      rectangle 1330,340 1370,380
+      text 110,480 'GitHub Runner Hours: %%total_runner_hours%%'
     pop graphic-context
 
     push graphic-context
       font-size 40
       fill 'white'
       stroke-width 1
-      text 1400,460 'Full-Time GitHub Runners: 456'
+      text 110,560 'Full-Time GitHub Runners: %%fulltime_runners%%'
     pop graphic-context
 
     push graphic-context
       font-size 40
       fill 'white'
       stroke-width 1
-      text 1400,540 '(Let\'s keep this below 25!)'
+      text 110,640 '(Let\'s keep this below 25!)'
     pop graphic-context
 
     push graphic-context
-      fill 'lime'
-      stroke 'black'
-      stroke-width 4
-      rectangle 1330,420 1370,460
-    pop graphic-context
-    push graphic-context
-      font-size 100
+      font-size 60
       fill 'white'
       stroke-width 1
       text 100,150 'GitHub Full-Time Runners: Live Update'
