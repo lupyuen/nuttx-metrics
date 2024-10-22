@@ -27,10 +27,10 @@ function update_metrics {
     | grep --only-matching -E '[.0-9]+' )
   local total_runner_hours=$(
     grep "^total_runner_hours=" $log_file \
-    | grep --only-matching -E '[0-9]+' )
+    | grep --only-matching -E '[.0-9]+' )
   local fulltime_runners=$(
     grep "^fulltime_runners=" $log_file \
-    | grep --only-matching -E '[0-9]+' )
+    | grep --only-matching -E '[.0-9]+' )
   echo time=$time
   echo date=$date
   echo hours=$hours
