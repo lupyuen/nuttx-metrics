@@ -41,6 +41,7 @@ run_id,run_duration_ms,runner_hours
 11451168830,59000,.1
 11454583574,49000,.1
 11454583577,111000,.2
+11454583621,5139000,11.4
 11454583331,20000,0
 11454575491,45000,.1
 11454575507,44000,.1
@@ -64,7 +65,7 @@ run_id,run_duration_ms,runner_hours
 11451851039,17000,0
 11451108858,48000,.1
 date=2024-10-22
-hours=8
-total_job_hours=10.5
-total_runner_hours=84.2
-fulltime_runners=10
+hours=
+total_job_hours=12.0
+total_runner_hours=95.6
+fulltime_runners=
