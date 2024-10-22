@@ -11,7 +11,7 @@ function update_metrics {
   # fulltime_runners=1
 
   ## Compute the Full-Time GitHub Runners
-  local log_file=/tmp/compute-github-runners.log
+  local log_file=compute-github-runners.log
   $HOME/nuttx-release/compute-github-runners.sh >$log_file
 
   ## Parse the output
