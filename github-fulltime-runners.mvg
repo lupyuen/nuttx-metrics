@@ -34,7 +34,7 @@ push graphic-context
       font-size 40
       fill 'white'
       stroke-width 1
-      text 110,480 'GitHub Runner Hours: %%total_runner_hours%%'
+      text 110,480 'GitHub Job Hours: %%total_runner_hours%%'
     pop graphic-context
 
     push graphic-context
