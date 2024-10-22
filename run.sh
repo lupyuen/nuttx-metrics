@@ -1,15 +1,18 @@
 #!/usr/bin/env bash
 ## Based on https://imagemagick.org/script/magick-vector-graphics.php
 
+## For Testing
 # time="Tue Oct 22 02:01:51 UTC 2024"
 # date=2024-10-22
 # hours=3
 # total_runner_hours=3
 # fulltime_runners=1
 
+## Compute the Full-Time GitHub Runners
 log_file=/tmp/compute-github-runners.log
 $HOME/nuttx-release/compute-github-runners.sh >$log_file
 
+## Parse the output
 time=$(date -u)
 date=$(
   grep "^date=" $log_file \
@@ -29,6 +32,7 @@ echo hours=$hours
 echo total_runner_hours=$total_runner_hours
 echo fulltime_runners=$fulltime_runners
 
+## Populate the ImageMagick Template
 tmp_file=/tmp/github-fulltime-runners.mvg
 cat github-fulltime-runners.mvg \
   | sed "s/%%time%%/$time/g" \
@@ -38,6 +42,14 @@ cat github-fulltime-runners.mvg \
   | sed "s/%%fulltime_runners%%/$fulltime_runners/g" \
   >$tmp_file
 
+## Render the PNG
 magick \
   mvg:$tmp_file \
   github-fulltime-runners.png
+
+## Commit the modified files
+git pull
+git status
+git add .
+git commit --all --message="Updated by run.sh"
+git push
