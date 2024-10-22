@@ -20,7 +20,7 @@ push graphic-context
       font-size 50
       fill 'white'
       stroke-width 1
-      text 110,320 'Date: %%date%%'
+      text 110,320 'Date: %%date%% UTC'
     pop graphic-context
 
     push graphic-context
