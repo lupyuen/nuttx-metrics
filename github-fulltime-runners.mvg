@@ -10,42 +10,42 @@ push graphic-context
     pop graphic-context
 
     push graphic-context
-      font-size 40
+      font-size 50
       fill 'white'
       stroke-width 1
       text 110,240 'Last Updated: %%time%%'
     pop graphic-context
 
     push graphic-context
-      font-size 40
+      font-size 50
       fill 'white'
       stroke-width 1
       text 110,320 'Date: %%date%%'
     pop graphic-context
 
     push graphic-context
-      font-size 40
+      font-size 50
       fill 'white'
       stroke-width 1
       text 110,400 'Hours: %%hours%%'
     pop graphic-context
 
     push graphic-context
-      font-size 40
+      font-size 50
       fill 'white'
       stroke-width 1
       text 110,480 'GitHub Job Hours: %%total_runner_hours%%'
     pop graphic-context
 
     push graphic-context
-      font-size 40
+      font-size 50
       fill 'white'
       stroke-width 1
       text 110,560 'Full-Time GitHub Runners: %%fulltime_runners%%'
     pop graphic-context
 
     push graphic-context
-      font-size 40
+      font-size 50
       fill 'white'
       stroke-width 1
       text 110,640 '(Let\'s keep this below 25!)'
@@ -55,7 +55,7 @@ push graphic-context
       font-size 60
       fill 'white'
       stroke-width 1
-      text 100,150 'GitHub Full-Time Runners: Live Update'
+      text 100,150 'GitHub Runners: Live Update'
     pop graphic-context
 
   pop graphic-context
