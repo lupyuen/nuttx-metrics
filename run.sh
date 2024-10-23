@@ -38,9 +38,12 @@ function update_metrics {
   echo total_runner_hours=$total_runner_hours
   echo fulltime_runners=$fulltime_runners
 
+  local color=8B5A00
+
   ## Populate the ImageMagick Template
   local tmp_file=/tmp/github-fulltime-runners.mvg
   cat github-fulltime-runners.mvg \
+    | sed "s/%%color%%/$color/g" \
     | sed "s/%%time%%/$time/g" \
     | sed "s/%%date%%/$date/g" \
     | sed "s/%%hours%%/$hours/g" \
