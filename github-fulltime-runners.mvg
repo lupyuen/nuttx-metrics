@@ -3,7 +3,7 @@ push graphic-context
   affine 0.283636 0 0 0.283846 -0 -0
   push graphic-context
     push graphic-context
-      fill '#483D8B'
+      fill '#8B5A00'
       stroke 'blue'
       stroke-width 1
       rectangle 1,1 2199,1299
