@@ -63,7 +63,7 @@ function update_metrics {
   fi
 
   ## Populate the ImageMagick Template
-  local tmp_file=/tmp/github-fulltime-runners.mvg
+  local tmp_file=$TMP/github-fulltime-runners.mvg
   cat github-fulltime-runners.mvg \
     | sed "s/%%color%%/$color/g" \
     | sed "s/%%time%%/$time/g" \
