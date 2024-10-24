@@ -74,6 +74,7 @@ function update_metrics {
     >$tmp_file
 
   ## Render the PNG
+  git pull
   magick \
     mvg:$tmp_file \
     github-fulltime-runners.png
