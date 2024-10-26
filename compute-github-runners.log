@@ -50,7 +50,7 @@ run_id,run_duration_ms,runner_hours
 11529280796,43000,.1
 11529280742,17000,0
 date=2024-10-26
-hours=20
+hours=21
 total_job_hours=13.7
 total_runner_hours=101
-fulltime_runners=5
+fulltime_runners=4
