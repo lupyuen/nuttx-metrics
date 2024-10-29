@@ -90,5 +90,6 @@ function update_metrics {
 ## Run forever
 for (( ; ; )); do
   update_metrics
+  date
   sleep 300
 done
