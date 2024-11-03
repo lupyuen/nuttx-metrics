@@ -91,5 +91,5 @@ function update_metrics {
 for (( ; ; )); do
   update_metrics
   date
-  sleep 300
+  sleep 900
 done
