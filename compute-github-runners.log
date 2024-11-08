@@ -2,8 +2,11 @@ run_id,run_duration_ms,runner_hours
 11734535752,122000,.3
 11734535744,44000,.1
 11734535518,27000,.1
+11735100643,110000,.2
+11735100628,44000,.1
+11735100538,19000,0
 date=2024-11-08
 hours=3
 total_job_hours=.1
-total_runner_hours=0
+total_runner_hours=1
 fulltime_runners=0
