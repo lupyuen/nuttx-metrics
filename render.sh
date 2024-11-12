@@ -6,5 +6,5 @@ set -x  ## Echo commands
 for (( ; ; )); do
   clear
   ./imgcat.sh --width 800px --url https://lupyuen.github.io/nuttx-metrics/github-fulltime-runners.png
-  sleep $(( 5 * 60 ))
+  date && sleep $(( 5 * 60 ))
 done
