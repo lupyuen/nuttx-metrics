@@ -1,4 +1,7 @@
 run_id,run_duration_ms,runner_hours
+12511346549,43000,.1
+12511346557,122000,.3
+12511346428,31000,.1
 12510991081,129000,.3
 12510990994,32000,.1
 12510991096,43000,.1
@@ -8,6 +11,6 @@ run_id,run_duration_ms,runner_hours
 12510219337,32000,.1
 date=2024-12-27
 hours=4
-total_job_hours=1.1
-total_runner_hours=8
+total_job_hours=1.2
+total_runner_hours=9
 fulltime_runners=2
