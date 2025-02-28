@@ -1,6 +1,6 @@
 run_id,run_duration_ms,runner_hours
-13593490005,40000,.1
 13593489914,28000,.1
+13593490005,40000,.1
 13593489991,131000,.3
 13591136017,1987000,4.1
 13591135939,133000,.3
@@ -16,7 +16,7 @@ run_id,run_duration_ms,runner_hours
 13582066855,105000,.2
 13582066790,19000,0
 date=2025-02-28
-hours=18
+hours=19
 total_job_hours=5.8
 total_runner_hours=43
 fulltime_runners=2
