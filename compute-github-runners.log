@@ -1,6 +1,12 @@
 run_id,run_duration_ms,runner_hours
+14485329740,41000,.1
+14485329762,126000,.3
+14485329464,36000,.1
+14485321365,40000,.1
+14485321372,124000,.3
+14485321094,29000,.1
 date=2025-04-16
 hours=6
-total_job_hours=0
-total_runner_hours=0
+total_job_hours=.1
+total_runner_hours=1
 fulltime_runners=0
