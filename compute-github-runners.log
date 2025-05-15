@@ -3,6 +3,7 @@ run_id,run_duration_ms,runner_hours
 15035819868,151000,.3
 15035602121,125000,.3
 15035602119,48000,.1
+15035602163,8873000,18.2
 15035601729,34000,.1
 15035587468,51000,.1
 15035587526,88000,.2
@@ -10,6 +11,6 @@ run_id,run_duration_ms,runner_hours
 15035587277,33000,.1
 date=2025-05-15
 hours=6
-total_job_hours=.2
-total_runner_hours=2
-fulltime_runners=0
+total_job_hours=2.7
+total_runner_hours=20
+fulltime_runners=3
