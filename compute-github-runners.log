@@ -32,7 +32,7 @@ run_id,run_duration_ms,runner_hours
 17755449727,28000,.1
 17775285349,22000,0
 date=2025-09-16
-hours=21
+hours=22
 total_job_hours=14.7
 total_runner_hours=109
-fulltime_runners=5
+fulltime_runners=4
