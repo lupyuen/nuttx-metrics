@@ -1,4 +1,7 @@
 run_id,run_duration_ms,runner_hours
+18115008437,47000,.1
+18115008442,103000,.2
+18115008060,16000,0
 date=2025-09-30
 hours=1
 total_job_hours=0
