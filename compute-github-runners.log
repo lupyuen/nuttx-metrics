@@ -1,6 +1,9 @@
 run_id,run_duration_ms,runner_hours
+19522281273,38000,.1
+19522281280,49000,.1
+19522281277,122000,.3
 date=2025-11-20
 hours=2
-total_job_hours=0
+total_job_hours=.1
 total_runner_hours=0
 fulltime_runners=0
