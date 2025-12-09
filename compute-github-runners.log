@@ -1,5 +1,10 @@
 run_id,run_duration_ms,runner_hours
+20062239086,43000,.1
+20062239089,126000,.3
+20062239079,135000,.3
+20062237690,27000,.1
 20061803089,41000,.1
+20061803075,127000,.3
 20061802694,26000,.1
 20061225838,34000,.1
 20061226118,48000,.1
@@ -133,6 +138,6 @@ run_id,run_duration_ms,runner_hours
 20049921178,17000,0
 date=2025-12-09
 hours=12
-total_job_hours=44.8
-total_runner_hours=331
+total_job_hours=44.9
+total_runner_hours=332
 fulltime_runners=27
