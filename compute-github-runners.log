@@ -1,6 +1,12 @@
 run_id,run_duration_ms,runner_hours
+20904892350,46000,.1
+20904892366,125000,.3
+20904892133,30000,.1
+20904744128,58000,.1
+20904744118,129000,.3
+20904743779,41000,.1
 date=2026-01-12
-hours=1
-total_job_hours=0
-total_runner_hours=0
+hours=2
+total_job_hours=.1
+total_runner_hours=1
 fulltime_runners=0
