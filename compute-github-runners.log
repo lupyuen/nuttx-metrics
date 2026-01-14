@@ -10,7 +10,7 @@ run_id,run_duration_ms,runner_hours
 20980152022,257000,.5
 20980151622,30000,.1
 date=2026-01-14
-hours=3
+hours=4
 total_job_hours=.3
 total_runner_hours=2
 fulltime_runners=0
