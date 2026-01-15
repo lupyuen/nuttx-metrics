@@ -74,9 +74,10 @@ function update_metrics {
     | sed "s/%%fulltime_runners%%/$fulltime_runners/g" \
     >$tmp_file
 
-  ## Render the PNG
+  ## Render the PNG.
+  ## For Newer ImageMagick: Change "convert" to "magick"
   git pull
-  magick \
+  convert \
     mvg:$tmp_file \
     github-fulltime-runners.png
 
