@@ -40,7 +40,7 @@ function update_metrics {
   echo fulltime_runners=$fulltime_runners
 
   ## Render the Full-Time Runners as Color Gradient (Purple to Orange)
-  local percent=$(bc -e "100 * $fulltime_runners / 25")
+  local percent=$(echo "100 * $fulltime_runners / 25" | bc)
   local color=483D8B  ## Purple
   if   [[ $percent -gt 95 ]]; then
     color=8B5A00  ## Orange
@@ -63,7 +63,7 @@ function update_metrics {
   fi
 
   ## Populate the ImageMagick Template
-  local tmp_file=$TMP/github-fulltime-runners.mvg
+  local tmp_file=/tmp/github-fulltime-runners.mvg
   cat github-fulltime-runners.mvg \
     | sed "s/%%color%%/$color/g" \
     | sed "s/%%time%%/$time/g" \
