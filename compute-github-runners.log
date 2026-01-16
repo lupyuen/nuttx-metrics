@@ -380,7 +380,7 @@ run_id,run_duration_ms,runner_hours
 21051835934,3851000,7.9
 21051835626,17000,0.0
 date=2026-01-16
-hours=17
+hours=18
 total_job_hours=144.8
 total_runner_hours=1071
-fulltime_runners=63
+fulltime_runners=59
