@@ -40,4 +40,8 @@ for (( ; ; )); do
 
   ## Print each CSV Row
   print_row
+
+  ## Rewind One Git Commit
+  git reset --hard HEAD~1 \
+    >/dev/null
 done
