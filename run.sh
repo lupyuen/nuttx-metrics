@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
+## See the updated Linux version: run2.sh
 ## Based on https://imagemagick.org/script/magick-vector-graphics.php
+
+## Don't allow running on macOS
+if [ "`uname`" == "Darwin" ]; then
+  echo "Quitting on macOS. Should run only on nuttx-dashboard-vm (Ubuntu)"
+  exit
+fi
 
 ## Render the GitHub Metrics
 function update_metrics {
