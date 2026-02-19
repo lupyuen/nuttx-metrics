@@ -1,4 +1,7 @@
 run_id,run_duration_ms,runner_hours
+22169366164,50000,0.1
+22169366133,82000,0.2
+22169365805,20000,0.0
 date=2026-02-19
 hours=6
 total_job_hours=0.0
