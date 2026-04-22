@@ -15,7 +15,7 @@ run_id,run_duration_ms,runner_hours
 24769877614,102000,0.2
 24769877605,50000,0.1
 date=2026-04-22
-hours=10
+hours=11
 total_job_hours=7.5
 total_runner_hours=56
 fulltime_runners=5
